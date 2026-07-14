@@ -22,6 +22,45 @@ Les scripts sont classés par domaine d'application afin de faciliter leur maint
 * **Gestion Multimédia (`Music.py`)** : Interface de contrôle pour la lecture de fichiers audio au format `.mp3` stockés sur le système, facilitant l'ajout d'effets sonores aux interactions du robot.
 
 
+Ce fichier `donnees.xlsx` est essentiel pour l'analyse de vos expérimentations. Voici comment l'intégrer dans la présentation de votre dépôt :
+
+---
+
+### Analyse de Données et Historique (`donnees.xlsx`)
+
+Ce fichier constitue la base de données consolidée des performances du robot. Il centralise les logs générés par le script `MOVE.py` pour permettre une analyse approfondie des interactions robotiques.
+
+* **Structure des données** : Il contient un historique détaillé des exécutions, incluant :
+* **Horodatage (`timestamp`)** : Date et heure précises de chaque action.
+* **Indicateurs d'environnement** : Mesures de la luminosité ambiante (`lumiere`) lors de l'exécution.
+* **Performance énergétique** : Suivi de l'état de la batterie avant (`batt_avant`) et après (`batt_apres`) chaque séquence de mouvement.
+  
+* **Diagnostic** : Statut de réussite (`resultat`) et codes d'erreur associés, ainsi que le temps de latence utilisateur (`attente`).
+
+
+* **Rôle** : Ce fichier est indispensable pour évaluer l'efficacité énergétique du robot, corréler les succès d'actions aux conditions lumineuses, et auditer les temps de réponse système au fil de vos tests.
+
+---
+
+
+Vous pouvez ajouter cette section à la suite de la liste des scripts pour montrer que votre projet gère non seulement l'action, mais aussi le **suivi analytique** des performances.
+
+* **Analyse de Données et Historique (donnees.xlsx)**
+Ce fichier constitue la base de données consolidée des performances du robot. Il centralise les logs générés par le script MOVE.py pour permettre une analyse approfondie des interactions robotiques.
+
+* **Structure des données** : Il contient un historique détaillé des exécutions, incluant :
+
+*Horodatage (timestamp)* : Date et heure précises de chaque action.
+
+**Indicateurs d'environnement**: Mesures de la luminosité ambiante (lumiere) lors de l'exécution.
+
+**Performance énergétique** : Suivi de l'état de la batterie avant (batt_avant) et après (batt_apres) chaque séquence de mouvement.
+
+**Diagnostic** : Statut de réussite (resultat) et codes d'erreur associés, ainsi que le temps de latence utilisateur (attente).
+
+* **Rôle** : Ce fichier est indispensable pour évaluer l'efficacité énergétique du robot, corréler les succès d'actions aux conditions lumineuses, et auditer les temps de réponse système au fil de vos tests.
+
+
 
 Réalisé par Elhadj Ibrahima Diallo
 Etudiant en Ingénierie informatique 
